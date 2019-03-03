@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="utf-8">
+　<title>グラフ</title> 
+</head>
+<body>
+  <canvas id="myLineChart"></canvas>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.bundle.js"></script>
+
+  <script>
+  var ctx = document.getElementById("myLineChart");
+  var myLineChart = new Chart(ctx, {
+    type: 'line',
+    data: {
+      labels: ['2019-03-01', '2019-03-02', '2019-03-03', '2019-03-04','2019-03-05'],
+      datasets: [
+        {
+          label: '酔い度',
+          data: [20, 40, 60, 5, 0],
+          borderColor: "rgba(255,0,0,1)",
+          backgroundColor: "rgba(0,0,0,0)",
+          yAxisID: "y-axis-2", // 追加
+        },
+        {
+          label: '体温',
+          data: [30,35,36,30,34],
+          borderColor: "rgba(0,0,0,1)",
+          backgroundColor: "rgba(0,0,0,0)",
+          yAxisID: "y-axis-1", // 追加
+        },
+        {
+          label: '杯数',
+          data: [25, 3,2,5,4],
+          borderColor: "rgba(0,0,255,1)",
+          backgroundColor: "rgba(0,0,0,0)",
+          yAxisID: "y-axis-1", // 追加
+        },
+        {
+          label: 'ビール',
+          data: [3,1,1,3,2],
+          borderColor: "rgba(0,255,0,1)",
+          backgroundColor: "rgba(0,0,0,0)",
+          yAxisID: "y-axis-1", // 追加
+        },
+        {
+          label: '日本酒',
+          data: [1,1,1,1,1],
+          borderColor: "rgba(0,255,255,1)",
+          backgroundColor: "rgba(0,0,0,0)",
+          yAxisID: "y-axis-1", // 追加
+        }
+      ],
+    },
+    options: {
+      title: {
+        display: true,
+        text: '今までの情報'
+      },
+      scales: {
+        yAxes: [{
+          id: "y-axis-2",
+          ticks: {
+            suggestedMax: 100,
+            suggestedMin: 0,
+            stepSize: 10,
+            callback: function(value, index, values){
+              return  value +  ''
+            }
+          }
+        },
+          {
+            id: "y-axis-1",   // Y軸のID
+            position: "right", // どちら側に表示される軸か？
+            ticks: {          // スケール
+                max: 38,
+                min: 0,
+                stepSize: 10
+            },
+        }]
+      },
+    }
+  });
+  </script>
+</body>
+
+</html>

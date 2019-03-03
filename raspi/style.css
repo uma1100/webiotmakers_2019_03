@@ -1,0 +1,1078 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+:root {
+    --web-view-ids: ______;
+}
+.main-nav {
+    display: flex;
+    justify-content: center;
+    /* justify-content:space-betwee; */
+}
+li {
+    border: 1px solid black;
+}
+.HP_per {
+    text-align: center;
+}
+#gauge {
+    margin: 0 auto;
+}
+.mater {
+    border-radius: 10px;
+    border: 1px solid black;
+    padding: 0px 30px 0px 30px;
+  }
+ul {
+    list-style: none;
+}
+.text_center{
+    text-align: center;
+}
+.text_left{
+    text-align: left;
+}
+.text_right{
+    text-align: right;
+}
+#container {
+    /* border:none; */
+}
+.HP_title {
+    font-weight: bold;
+    font-size: 50px;
+}
+/* #______ * {
+    margin: 0;
+    padding: 0;
+}
+#______ {
+    position: absolute;
+    box-sizing: border-box;
+    background: #E5E5E5;
+    width: 375px;
+    height: 697px;
+    background-color: rgba(255,255,255,1);
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    opacity: 1;
+    --web-view-name: リアルタイム;
+    --web-view-id: ______;
+    --web-enable-deep-linking: true;
+    main;
+}
+#HP {
+    opacity: 1;
+    position: absolute;
+    width: 347.608px;
+    height: 227.516px;
+    left: 13.483px;
+    top: 66px;
+    overflow: visible;
+}
+#gauge {
+    opacity: 1;
+    position: absolute;
+    width: 287.617px;
+    height: 145.386px;
+    left: 27.557px;
+    top: 80.949px;
+    overflow: visible;
+}
+#Path_386 {
+    opacity: 1;
+    fill: rgba(240,242,248,1);
+    stroke: rgb(240, 242, 248);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 10;
+    shape-rendering: auto;
+}
+.Path_386 {
+    transform: matrix(1,0,0,1,0,0);
+    overflow: visible;
+    position: absolute;
+    top: 9.698px;
+    left: 9.783px;
+    width: 269.051px;
+    height: 135.153px;
+}
+#Group_268 {
+    opacity: 1;
+    position: absolute;
+    width: 287.617px;
+    height: 143.851px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#Line_12 {
+    opacity: 1;
+    fill: transparent;
+    stroke: rgb(240, 242, 248);
+    stroke-width: 2px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 10;
+    shape-rendering: auto;
+}
+.Line_12 {
+    overflow: visible;
+    position: absolute;
+    top: 143.851px;
+    left: 277.834px;
+    width: 9.783px;
+    height: 2px;
+}
+#Line_13 {
+    opacity: 1;
+    fill: transparent;
+    stroke: rgb(240, 242, 248);
+    stroke-width: 2px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 10;
+    shape-rendering: auto;
+}
+.Line_13 {
+    overflow: visible;
+    position: absolute;
+    top: 104.804px;
+    left: 272.815px;
+    width: 9.981px;
+    height: 4.563px;
+}
+#Line_14 {
+    opacity: 1;
+    fill: transparent;
+    stroke: rgb(240, 242, 248);
+    stroke-width: 2px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 10;
+    shape-rendering: auto;
+}
+.Line_14 {
+    overflow: visible;
+    position: absolute;
+    top: 63.972px;
+    left: 255.291px;
+    width: 9.276px;
+    height: 7.108px;
+}
+#Line_15 {
+    opacity: 1;
+    fill: transparent;
+    stroke: rgb(240, 242, 248);
+    stroke-width: 2px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 10;
+    shape-rendering: auto;
+}
+.Line_15 {
+    overflow: visible;
+    position: absolute;
+    top: 30.71px;
+    left: 226.623px;
+    width: 7.617px;
+    height: 8.972px;
+}
+#Line_16 {
+    opacity: 1;
+    fill: transparent;
+    stroke: rgb(240, 242, 248);
+    stroke-width: 2px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 10;
+    shape-rendering: auto;
+}
+.Line_16 {
+    overflow: visible;
+    position: absolute;
+    top: 9.102px;
+    left: 190.724px;
+    width: 5.358px;
+    height: 9.897px;
+}
+#Line_17 {
+    opacity: 1;
+    fill: transparent;
+    stroke: rgb(240, 242, 248);
+    stroke-width: 2px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 10;
+    shape-rendering: auto;
+}
+.Line_17 {
+    overflow: visible;
+    position: absolute;
+    top: 143.851px;
+    left: 0px;
+    width: 9.783px;
+    height: 2px;
+}
+#Line_18 {
+    opacity: 1;
+    fill: transparent;
+    stroke: rgb(240, 242, 248);
+    stroke-width: 2px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 10;
+    shape-rendering: auto;
+}
+.Line_18 {
+    overflow: visible;
+    position: absolute;
+    top: 104.804px;
+    left: 5.359px;
+    width: 9.981px;
+    height: 4.563px;
+}
+#Line_19 {
+    opacity: 1;
+    fill: transparent;
+    stroke: rgb(240, 242, 248);
+    stroke-width: 2px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 10;
+    shape-rendering: auto;
+}
+.Line_19 {
+    overflow: visible;
+    position: absolute;
+    top: 63.972px;
+    left: 24.245px;
+    width: 9.199px;
+    height: 7.103px;
+}
+#Line_20 {
+    opacity: 1;
+    fill: transparent;
+    stroke: rgb(240, 242, 248);
+    stroke-width: 2px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 10;
+    shape-rendering: auto;
+}
+.Line_20 {
+    overflow: visible;
+    position: absolute;
+    top: 30.71px;
+    left: 54.954px;
+    width: 7.617px;
+    height: 8.972px;
+}
+#Line_21 {
+    opacity: 1;
+    fill: transparent;
+    stroke: rgb(240, 242, 248);
+    stroke-width: 2px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 10;
+    shape-rendering: auto;
+}
+.Line_21 {
+    overflow: visible;
+    position: absolute;
+    top: 9.102px;
+    left: 93.49px;
+    width: 5.278px;
+    height: 9.882px;
+}
+#Line_22 {
+    opacity: 1;
+    fill: transparent;
+    stroke: rgb(240, 242, 248);
+    stroke-width: 2px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 10;
+    shape-rendering: auto;
+}
+.Line_22 {
+    overflow: visible;
+    position: absolute;
+    top: 0px;
+    left: 143.851px;
+    width: 2px;
+    height: 9.783px;
+}
+#Mask_Group_5 {
+    opacity: 1;
+    position: absolute;
+    width: 64.813px;
+    height: 77.217px;
+    left: 6.163px;
+    top: 68.169px;
+    overflow: visible;
+}
+#number {
+    opacity: 1;
+    position: absolute;
+    width: 347.608px;
+    height: 172.516px;
+    left: 0px;
+    top: 55px;
+    overflow: visible;
+}
+#ID0 {
+    opacity: 0.5;
+    position: absolute;
+    left: 0px;
+    top: 162.516px;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    overflow: visible;
+    width: 5px;
+    white-space: nowrap;
+    line-height: 9px;
+    margin-top: -0.5px;
+    text-align: center;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 8px;
+    color: rgba(0,0,0,1);
+}
+#ID100 {
+    opacity: 0.5;
+    position: absolute;
+    left: 331.608px;
+    top: 162.516px;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    overflow: visible;
+    width: 17px;
+    white-space: nowrap;
+    line-height: 12px;
+    margin-top: -1px;
+    text-align: center;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    color: rgba(0,0,0,1);
+}
+#ID10 {
+    opacity: 0.5;
+    position: absolute;
+    left: 1.879px;
+    top: 121.182px;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    overflow: visible;
+    width: 11px;
+    white-space: nowrap;
+    line-height: 11px;
+    margin-top: -1px;
+    text-align: center;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 9px;
+    color: rgba(0,0,0,1);
+}
+#ID90 {
+    opacity: 0.5;
+    position: absolute;
+    left: 330.668px;
+    top: 121.182px;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    overflow: visible;
+    width: 11px;
+    white-space: nowrap;
+    line-height: 11px;
+    margin-top: -1px;
+    text-align: center;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 9px;
+    color: rgba(0,0,0,1);
+}
+#ID20 {
+    opacity: 0.5;
+    position: absolute;
+    left: 20.667px;
+    top: 71.394px;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    overflow: visible;
+    width: 11px;
+    white-space: nowrap;
+    line-height: 11px;
+    margin-top: -1px;
+    text-align: center;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 9px;
+    color: rgba(0,0,0,1);
+}
+#ID80 {
+    opacity: 0.5;
+    position: absolute;
+    left: 310.001px;
+    top: 71.394px;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    overflow: visible;
+    width: 11px;
+    white-space: nowrap;
+    line-height: 11px;
+    margin-top: -1px;
+    text-align: center;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 9px;
+    color: rgba(0,0,0,1);
+}
+#ID30 {
+    opacity: 0.5;
+    position: absolute;
+    left: 60.121px;
+    top: 35.697px;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    overflow: visible;
+    width: 11px;
+    white-space: nowrap;
+    line-height: 11px;
+    margin-top: -1px;
+    text-align: center;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 9px;
+    color: rgba(0,0,0,1);
+}
+#ID70 {
+    opacity: 0.5;
+    position: absolute;
+    left: 274.304px;
+    top: 35.697px;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    overflow: visible;
+    width: 11px;
+    white-space: nowrap;
+    line-height: 11px;
+    margin-top: -1px;
+    text-align: center;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 9px;
+    color: rgba(0,0,0,1);
+}
+#ID40 {
+    opacity: 0.5;
+    position: absolute;
+    left: 107.091px;
+    top: 10.333px;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    overflow: visible;
+    width: 11px;
+    white-space: nowrap;
+    line-height: 11px;
+    margin-top: -1px;
+    text-align: center;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 9px;
+    color: rgba(0,0,0,1);
+}
+#ID60 {
+    opacity: 0.5;
+    position: absolute;
+    left: 229.213px;
+    top: 10.333px;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    overflow: visible;
+    width: 11px;
+    white-space: nowrap;
+    line-height: 11px;
+    margin-top: -1px;
+    text-align: center;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 9px;
+    color: rgba(0,0,0,1);
+}
+#ID50 {
+    opacity: 0.5;
+    position: absolute;
+    left: 168.152px;
+    top: 0px;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    overflow: visible;
+    width: 11px;
+    white-space: nowrap;
+    line-height: 11px;
+    margin-top: -1px;
+    text-align: center;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 9px;
+    color: rgba(0,0,0,1);
+}
+#ID20_ {
+    opacity: 1;
+    position: absolute;
+    left: 140.91px;
+    top: 191.213px;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    overflow: visible;
+    width: 65px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    color: rgba(67,66,93,1);
+}
+#HP_A0_Text_13 {
+    opacity: 1;
+    position: absolute;
+    left: 146.517px;
+    top: 0px;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    overflow: visible;
+    width: 56px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Hiragino Kaku Gothic ProN;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 38px;
+    color: rgba(0,0,0,1);
+}
+#__ {
+    opacity: 1;
+    position: absolute;
+    width: 161px;
+    height: 103px;
+    left: 13px;
+    top: 380px;
+    overflow: visible;
+}
+#Rectangle_2 {
+    opacity: 1;
+    fill: rgba(255,255,255,1);
+    stroke: rgb(219, 219, 219);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Rectangle_2 {
+    position: absolute;
+    overflow: visible;
+    width: 161px;
+    height: 103px;
+    left: 0px;
+    top: 0px;
+}
+#ID36_ {
+    opacity: 1;
+    position: absolute;
+    left: 81px;
+    top: 52px;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    overflow: visible;
+    width: 55px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    color: rgba(0,0,0,1);
+}
+#___A0_Text_15 {
+    opacity: 1;
+    position: absolute;
+    left: 25px;
+    top: 22px;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    overflow: visible;
+    width: 31px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    color: rgba(0,0,0,1);
+}
+#_ {
+    opacity: 1;
+    position: absolute;
+    width: 161px;
+    height: 103px;
+    left: 200px;
+    top: 380px;
+    overflow: visible;
+}
+#Rectangle_2_A0_Rectangle_2 {
+    opacity: 1;
+    fill: rgba(255,255,255,1);
+    stroke: rgb(219, 219, 219);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Rectangle_2_A0_Rectangle_2 {
+    position: absolute;
+    overflow: visible;
+    width: 161px;
+    height: 103px;
+    left: 0px;
+    top: 0px;
+}
+#ID101 {
+    opacity: 1;
+    position: absolute;
+    left: 93px;
+    top: 64px;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    overflow: visible;
+    width: 45px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    color: rgba(0,0,0,1);
+}
+#_______A0_Text_17 {
+    opacity: 1;
+    position: absolute;
+    left: 20px;
+    top: 25px;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    overflow: visible;
+    width: 91px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    color: rgba(0,0,0,1);
+}
+#____ {
+    opacity: 1;
+    position: absolute;
+    width: 343px;
+    height: 122px;
+    left: 18px;
+    top: 490px;
+    overflow: visible;
+}
+#Rectangle_4 {
+    opacity: 1;
+    fill: rgba(255,255,255,1);
+    stroke: rgb(219, 219, 219);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Rectangle_4 {
+    position: absolute;
+    overflow: visible;
+    width: 343px;
+    height: 122px;
+    left: 0px;
+    top: 0px;
+}
+#_________________ {
+    opacity: 1;
+    fill: url(#__________________A0_Rectangle_5_pattern);
+}
+._________________ {
+    position: absolute;
+    overflow: visible;
+    width: 27.665px;
+    height: 27.665px;
+    left: 23.609px;
+    top: 40px;
+}
+#______________ {
+    opacity: 1;
+    fill: url(#_______________A0_Rectangle_7_pattern);
+}
+.______________ {
+    position: absolute;
+    overflow: visible;
+    width: 27.665px;
+    height: 27.665px;
+    left: 23.609px;
+    top: 77.288px;
+}
+#____3 {
+    opacity: 1;
+    position: absolute;
+    left: 67.484px;
+    top: 40.601px;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    overflow: visible;
+    width: 107px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    color: rgba(0,0,0,1);
+}
+#_____3 {
+    opacity: 1;
+    position: absolute;
+    left: 57.659px;
+    top: 77.89px;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    overflow: visible;
+    width: 117px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    color: rgba(0,0,0,1);
+}
+#__Total_3 {
+    opacity: 1;
+    position: absolute;
+    left: 212.659px;
+    top: 77.89px;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    overflow: visible;
+    width: 103px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    color: rgba(0,0,0,1);
+}
+#_______ {
+    opacity: 1;
+    position: absolute;
+    left: 9px;
+    top: 7px;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    overflow: visible;
+    width: 137px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    color: rgba(0,0,0,1);
+}
+#_____ {
+    opacity: 1;
+    position: absolute;
+    width: 346px;
+    height: 36px;
+    left: 15px;
+    top: 322px;
+    overflow: visible;
+}
+#_______________A0_Text_22 {
+    opacity: 1;
+    position: absolute;
+    left: 41px;
+    top: 9px;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    overflow: visible;
+    width: 265px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19px;
+    color: rgba(255,131,115,1);
+}
+#_________ {
+    opacity: 1;
+    fill: url(#__________A0_Rectangle_9_pattern);
+}
+._________ {
+    position: absolute;
+    overflow: visible;
+    width: 36px;
+    height: 36px;
+    left: 0px;
+    top: 0px;
+}
+#___________ {
+    opacity: 1;
+    fill: url(#____________A0_Rectangle_11_pattern);
+}
+.___________ {
+    position: absolute;
+    overflow: visible;
+    width: 36px;
+    height: 36px;
+    left: 310px;
+    top: 0px;
+}
+#type {
+    opacity: 1;
+    position: absolute;
+    width: 26px;
+    height: 8px;
+    left: 175px;
+    top: 46px;
+    overflow: visible;
+}
+#Ellipse_1 {
+    opacity: 1;
+    fill: rgba(0,0,0,1);
+    stroke: rgb(0, 0, 0);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Ellipse_1 {
+    position: absolute;
+    overflow: visible;
+    width: 8px;
+    height: 8px;
+    left: 0px;
+    top: 0px;
+}
+#Ellipse_2 {
+    opacity: 1;
+    fill: rgba(255,255,255,1);
+    stroke: rgb(0, 0, 0);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Ellipse_2 {
+    position: absolute;
+    overflow: visible;
+    width: 8px;
+    height: 8px;
+    left: 18px;
+    top: 0px;
+}
+#__________ {
+    opacity: 1;
+    position: absolute;
+    width: 375px;
+    height: 35.059px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#Rectangle_1 {
+    opacity: 1;
+    fill: rgba(255,255,255,1);
+    stroke: rgb(112, 112, 112);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Rectangle_1 {
+    position: absolute;
+    overflow: visible;
+    width: 375px;
+    height: 35.059px;
+    left: 0px;
+    top: 0px;
+}
+#Line_23 {
+    opacity: 1;
+    fill: transparent;
+    stroke: rgb(112, 112, 112);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Line_23 {
+    overflow: visible;
+    position: absolute;
+    top: 10.408px;
+    left: 7.5px;
+    width: 17px;
+    height: 1px;
+}
+#Line_24 {
+    opacity: 1;
+    fill: transparent;
+    stroke: rgb(112, 112, 112);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Line_24 {
+    overflow: visible;
+    position: absolute;
+    top: 25.746px;
+    left: 7.5px;
+    width: 17px;
+    height: 1px;
+}
+#Line_25 {
+    opacity: 1;
+    fill: transparent;
+    stroke: rgb(112, 112, 112);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Line_25 {
+    overflow: visible;
+    position: absolute;
+    top: 18.077px;
+    left: 7.5px;
+    width: 17px;
+    height: 1px;
+}
+#___A0_Group_12 {
+    opacity: 1;
+    position: absolute;
+    width: 375px;
+    height: 51px;
+    left: 0px;
+    top: 611px;
+    overflow: visible;
+}
+#Rectangle_5 {
+    opacity: 1;
+    fill: rgba(255,255,255,1);
+    stroke: rgb(112, 112, 112);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Rectangle_5 {
+    position: absolute;
+    overflow: visible;
+    width: 188px;
+    height: 51px;
+    left: 187px;
+    top: 0px;
+}
+#Rectangle_6 {
+    opacity: 1;
+    fill: rgba(255,255,255,1);
+    stroke: rgb(112, 112, 112);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Rectangle_6 {
+    position: absolute;
+    overflow: visible;
+    width: 188px;
+    height: 51px;
+    left: 0px;
+    top: 0px;
+}
+#__________1 {
+    opacity: 1;
+    fill: url(#__________1_A0_Rectangle_16_pattern);
+}
+.__________1 {
+    position: absolute;
+    overflow: visible;
+    width: 35px;
+    height: 35px;
+    left: 77px;
+    top: 8px;
+}
+#____________ {
+    opacity: 1;
+    fill: url(#_____________A0_Rectangle_18_pattern);
+}
+.____________ {
+    position: absolute;
+    overflow: visible;
+    width: 35px;
+    height: 35px;
+    left: 263px;
+    top: 8px;
+} */

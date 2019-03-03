@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<title>main</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<script src="http://code.jquery.com/jquery-3.2.1.min.js"></script>
+<div id="contaner">
+	<ul class="main-nav">
+		<li>
+			<div id="HP">
+					<p class="text_center HP_title">HP</p>
+				<div id="gauge">
+					<canvas id='myChart' width='450px' height='250px'></canvas>
+				</div>
+				<div class="HP_per">
+					<span id="HP_data">20</span><span>%</span><br>
+				</div>
+				<div class="HP_text text_center">
+					<span id="HP_color">もう少しで酔っ払いになります</span>
+				</div>
+			</div>
+		</li>
+		<li>
+			<div id="__">
+				<div class="mater">
+						<span>体温</span><br>
+						<span id="ondo">36</span><span>度</span>
+				</div>
+			</div>
+			<div id="_">
+				<div class="mater">
+					<span>呼気センサー</span><br>
+					<span id='alc_param'>0</span><span>%</span>
+				</div>
+			</div>
+			<div id="____">
+				<div class="mater">
+					<p class="text_left"><span class="mater_title">飲んだ数(杯)</span></p>
+					<p class="text_center"><span>ビール：3</span></p>
+					<p class="text_center"><span> 日本酒：3</span></p>
+					<p class="text_right"><span>  Total：3</span></p>
+				</div>
+			</div>
+		</li>
+	</ul>
+</div>
+<script src="https://chirimen.org/chirimen-raspi3/gc/polyfill/polyfill.js"></script>
+<script src="https://chirimen.org/chirimen-raspi3/gc/drivers/i2c-ADT7410.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
