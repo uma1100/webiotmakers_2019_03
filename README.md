@@ -14,7 +14,7 @@
 
 ### 作成したもの
 
-![image1](/iothachathon1.jpg)
+![image1](/iothackathon1.jpg)
 
 ![image2](/iothackathon2.jpg)
 
