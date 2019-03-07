@@ -16,7 +16,7 @@
 
 ![image1](/iothackathon1.jpg)
 
-![image2](/iothackathon2.jpg)
+![image2](/iothacathon2.jpg)
 
 
 
